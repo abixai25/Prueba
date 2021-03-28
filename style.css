@@ -1,0 +1,314 @@
+body {
+    font-family: 'Sofia Pro', sans-serif;
+    background-color: white; 
+    box-sizing: content-box;
+    width: 100%;}
+
+   .btn {
+        color: #ffffff;
+    }
+    .btn:hover {
+        color: #7550a6;
+    }
+    .nav-link{
+        color: whitesmoke;
+        font-weight: bold;
+    }
+    .nav-link:hover{
+        color: #7550a6;
+    } 
+   .logo{
+       max-width: 100%;
+       width: 50px;
+       height: 30px;
+   }
+   .menu-navbar{
+        background-color: black;
+        color: whitesmoke;
+    }
+    .capa-1 {
+        width: 100%;
+        height: 700px;
+        max-height: auto;
+        background-image: url('images/capa\ 1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .capa-2 {
+        width: 100%;
+        max-height: auto;
+        height: 600px;
+        background-image: url('images/capa\ 2.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+    } 
+    .capa-3 {
+        width: 100%;
+        height: 700px;
+        max-height: auto;
+        background-image: url('images/capa\ 3.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    } 
+    .capa-4 {
+        max-height: auto;
+        background-color: #7550a6;
+    }
+    .capa-5 {
+        max-height: auto;
+        background-color: #421a75;
+    }
+    .column-bg-1{
+        height: 700px;
+        max-height: auto;
+        background-image: url('images/capa\ 1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .column-bg-2{
+        max-height: auto;
+        height: 700px;
+        background-color: white; 
+    }
+    .column-bg-3{
+        width: 100%;
+        height: 500px; 
+        background-image: url('images/capa\ 1.jpg');
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .column-bg-4{
+        width: 100%;
+        height: 500px; 
+        background-color: white; 
+        z-index: 2;
+    }
+    .row-bg-2{
+        max-height: auto;
+        height: 120vh;
+        background-color: white;
+    }
+    .primary {
+        font-family: 'Sofia Pro', sans-serif;
+        padding: 250px 12px 28px 60px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 2.50em;
+    } 
+    .secondary {
+        font-family: 'Sofia Pro', sans-serif;
+        margin-top: 70px;
+        padding: 0px 0px 0px 0px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 2.50em;
+    }   
+    .sub-secondary {
+        margin-top: 10px;
+        padding: 0px 0px 0px 0px;
+        font-family: 'Sofia Pro', sans-serif;
+        color: whitesmoke;
+        font-weight:700;
+        font-size: 1.0em;
+    } 
+    .third{
+        font-family: 'Sofia Pro', sans-serif;
+        margin-top: 90px;
+        padding: 10px 30px 5px 80px;
+        color: #572991;
+        font-weight: bold;
+        font-size: 2.50em;
+    } 
+    .sub-third{
+        padding: 10px 30px 5px 80px;
+        font-family: 'Sofia Pro', sans-serif;
+        color: #572991;
+        font-weight:700;
+        font-size: 1.0em;
+    } 
+    .quarter{
+        font-family: 'Sofia Pro', sans-serif;
+        margin-top: 4rem;
+        padding: 0px 0px 0px 0px;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 2.50em;
+    } 
+    .paragraph{
+        color: whitesmoke;
+        font-size: .80em;
+        text-align: justify;
+    }
+    .paragraph-2{
+        color: #572991;
+        font-size: .80em;
+        text-align: justify;
+        padding: 10px 30px 5px 80px;
+    } 
+    .paragraph-3{
+        color: #572991;
+        font-size: 1.50em;
+        text-align: left;
+        font-weight: bold;
+        padding: 0px 0px 5px 0px;
+    } 
+    .card{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid transparent;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+    }
+    .card-2{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        min-width: 0;
+        word-wrap: break-word;
+        background-color: transparent;
+        background-clip: border-box;
+        border: 1px solid transparent;
+        align-items: center;
+        margin-top: 2rem;
+        margin-bottom: 8rem;
+        width: 20em;
+    }
+    .card-img-top{
+        display: flex;
+        border-radius: 50%;
+        width: 12vw;
+        height: auto;
+    } 
+    .card-img-top-2{
+        display: flex;
+        width: 100%;
+        height: auto;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    } 
+    .card-body {
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        align-items: center;
+        text-align: center;
+        color: whitesmoke;
+        height: 100px;
+    } 
+    .card-body-2 { 
+        flex: 1 1 auto;
+        padding: 1rem 1rem;
+        align-items: center;
+        text-align: center;
+        background-color: whitesmoke;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    } 
+    .card-text{
+        color: whitesmoke;
+        font-size: .70em;
+        text-align: center;
+        padding: 10px 25px 10px 30px;
+    }
+    .card-text-2{
+        color: #572991;
+        font-size: .70em;
+        text-align: center;
+        padding: 10px 10px 10px 10px;
+    }
+    .footer-bg{
+        background-color: #9167c7;
+    }
+
+    .register-photo {
+        background: white;
+        padding: 80px 0;
+    }
+    
+    .register-photo .image-holder {
+        display: table-cell;
+        width: auto;
+        background: url(./images/capa\ 2.jpg);
+        background-size: fill no-repeat center;
+        border-radius: 20px;
+        z-index: 2;
+    }
+    
+    .register-photo .form-container {
+        display: table;
+        max-width: 1000px;
+        width: 95%;
+        margin: 0 auto;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        z-index: 1;
+    }
+    
+    .register-photo form {
+        display: table-cell;
+        width: 500px;
+        background-color: #ffffff;
+        padding: 30px 40px;
+        color: #505e6c;
+    }
+    
+    @media (max-width:991px) {
+        .register-photo form {
+            padding: 30px
+        }
+    }
+    
+    .register-photo form h2 {
+        font-size: 24px;
+        line-height: 1.5;
+        margin-bottom: 30px;
+    }
+    
+    .register-photo form .form-control {
+        border-radius: 25px;
+        box-shadow: none;
+        outline: none;
+        color: inherit;
+        text-indent: 0px;
+    }
+    
+    .register-photo form .form-check {
+        font-size: 13px;
+        line-height: 20px;
+    }
+    .register-photo form .btn-primary {
+        background: #572991;
+        border: none;
+        border-radius: 30px;
+        padding: 10px 20px 10px 20px;
+        box-shadow: none;
+        margin-top: 35px;
+        text-shadow: none;
+        outline: none !important;
+        float: right;
+    }
+    
+    .register-photo form .btn-primary:hover,
+    .register-photo form .btn-primary:active {
+        background: #9167c7;
+    }
+    
+    .register-photo form .btn-primary:active {
+        transform: translateY(1px)
+    }
+    
+    .register-photo form .already {
+        display: block;
+        text-align: center;
+        font-size: 12px;
+        color: #6f7a85;
+        opacity: 0.9;
+        text-decoration: none;
+    }
+   
+    
